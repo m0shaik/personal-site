@@ -30,9 +30,15 @@ p a { /* "all links in paragraphs..." */
 	color: blue; /* put back styles for normal links */
 }
 
-inner-column{
+.inner-column{
 	max-width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 50px 15px;
+}
 
+
+body{
+	--color: hsla(66, 100%, 50%, 1);
+	min-height: 100vh;
 }
