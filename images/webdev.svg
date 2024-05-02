@@ -1,18 +1,4 @@
-<footer>
 
-
-	<div class="small-phone">
-
-		<div class='small-bar'></div>
-		<div class='medium-bar'></div>
-		<div class='big-bar'></div>
-	
-	<div>
-		<div class='title'>webdev</div>
-	</div>
-	</div>
-
-	<picture class='desktop'>
 <svg width="100%" height="100%" viewBox="0 0 618 1207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1,0,0,1,-510.106,-6108.8)">
         <g transform="matrix(1,0,0,1.14738,1386.3,-950.237)">
@@ -43,7 +29,3 @@
         </g>
     </g>
 </svg>
-
-	</picture>
-	
-</footer>

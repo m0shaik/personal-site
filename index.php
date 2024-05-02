@@ -25,6 +25,20 @@
 
 		<main>
 
+			<section class="greeting">
+
+				<div class="inner-column">
+				<h1 class="loud-voice">
+					Mohammed Shaikh
+				</h1>
+
+				<h2 class="attention-voice">
+					Web developer
+				</h2>
+				</div>
+
+			</section>
+
 			<section class='about-section'>
 				<div class="inner-column">
 					<p>

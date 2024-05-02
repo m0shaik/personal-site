@@ -46,7 +46,7 @@
 					<li class='calm-voice'>Applied honed problem-solving skills to analyze and resolve issues impacting business operations and goal achievement.</li>
 					<li class='calm-voice'>Provided customer service and was involved in training 5 new team members each month.</li>
 
-					<li class='calm-voice'>Maintained a clean and safe work environment, resulting in a 90% reduction in complaints filed with management and a 80% increase in crew satisfaction</li>
+					<li class='calm-voice'>Maintained a clean and safe work environment, resulting in a 90% reduction in complaints.</li>
 				</ul>
 				
 			</div>
@@ -100,11 +100,11 @@
 							
 							<ul>
 
-								<li class='calm-voice'>Played the position of Wide Receiver on the school football team from 2016 to 2018.</li>
+								<li class='calm-voice'>Educated on different business management styles across canada.</li>
 
-								<li class='calm-voice'>Volunteered on a monthly basis to prepare meals at the local community food bank.</li>
+								<li class='calm-voice'>Learnt various accounting and financial techniques.</li>
 
-								<li class='calm-voice'>Participated in the activism and protests in favour of the Andhra Pradesh Reorganization Act in 2014.</li>
+								<li class='calm-voice'>Learnt organisational behaviour and work ethics practices.</li>
 
 					
 							</ul>

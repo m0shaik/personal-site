@@ -11,7 +11,7 @@
 
 		<meta property='og:image' content='images/default-meta.png'>
 
-		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="./styles/style.css">
 	</head>
 
 	<body>
@@ -88,25 +88,6 @@
 
 			
 			<section class="links-section">
-				<div class="inner-column">
-					<nav>
-						<ul>
-							<li>
-								<a href="../index.php" class="notice-voice">
-									Home
-								</a>
-							</li>
-
-							<li>
-								<a href="../resume/index.php" class="notice-voice">
-									Resume
-								</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-		</section>	
-		<section class="links-section">
 				<div class="inner-column">
 					<nav>
 						<ul>

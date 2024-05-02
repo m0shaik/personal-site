@@ -152,3 +152,51 @@ body{
 	display: flex;
 	justify-content: space-around;
 }
+
+.greeting{
+	display: none;
+}
+
+/*desktop*/
+
+@media (min-width: 1000px){
+
+	header{
+		display: none;
+	}
+
+	footer{
+		
+	}
+
+	footer, picture{
+		position: fixed;
+		z-index: 1;
+		top:00;
+		right: 120px;
+		height: 100%;
+		
+
+
+	}
+
+
+	.small-phone{
+		display: none;
+	}
+
+
+	.inner-column{
+		padding-left: 100px;
+	}
+
+	.projects-section .inner-column {
+	padding-left: 100px;
+
+}
+
+	.greeting{
+	display: block;
+}
+
+}
