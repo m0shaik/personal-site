@@ -6,7 +6,7 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<title>[[mShaikh Webdev]</title>
+		<title>[[mShaik]</title>
 		
 		<meta name='description' content='[[insert description]]'>
 
@@ -109,13 +109,13 @@
 					<nav>
 						<ul>
 							<li>
-								<a href="#" class="notice-voice">
+								<a href="resume/index.php" class="notice-voice">
 									Resume
 								</a>
 							</li>
 
 							<li>
-								<a href="#" class="notice-voice">
+								<a href="goals/index.php" class="notice-voice">
 									Goals
 								</a>
 							</li>

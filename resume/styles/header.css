@@ -1,34 +1,34 @@
-footer{
-	
-padding-top: 30px;
-overflow: hidden;
+header{
+
+	padding-bottom: 30px;
+
 }
 
-footer .title {
+header .title {
     background-color: black;
 	color: var(--color);
-	font-size: 26.5vw;
+	font-size: 22.6vw;
 	font-family: "Abril Fatface", serif;
 	line-height: 0.85;
 	text-align: center;
 
 }
 
-footer .big-bar{
+header .big-bar{
 	background-color: black;
 	height: 9.5vw;
 }
 
-footer .medium-bar{
+header .medium-bar{
 	background-color: black;
 	height: 4.25vw;
 }
 
-footer .small-bar{
+header .small-bar{
 	background-color: black;
 	height: 2.125vw;
 }
 
- footer div + div{
+ header div + div{
 	margin-top: 2px;
 }
