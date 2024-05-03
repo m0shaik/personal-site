@@ -31,7 +31,7 @@
 	 font-size: 24px;
 }
 
-li, .calm-voice {
+ li, .calm-voice {
 	 font-family: "Poppins", serif;
 	 font-size: 20px;
 	 line-height: 1.6;
@@ -43,17 +43,65 @@ body{
 	background-color: var(--color);
 }
 
-/*li*/
-
-li + li{
-	padding-top: 25px;
+ul{
+	
+	list-style-type: square;
+/*	list-style-position: inside;*/
 }
 
+h2 + ul{
+	padding-top: 30px;
+}
 
+.goal-section li + li{
+	padding-top: 10px;
+}
 
-/* links section */
+/*link-section*/
 
 .links-section ul {
 	display: flex;
 	justify-content: space-around;
+	list-style-type: none;
+
+}
+
+.desktop{
+	display: none;
+}
+
+@media (min-width: 1000px){
+
+	header{
+		display: none;
+	}
+
+	.desktop{
+		display: block;
+	}
+
+	footer, picture{
+		position: fixed;
+		z-index: 1;
+		top:00;
+		right: 120px;
+		height: 100%;
+		
+	}
+
+	.small-phone {
+		display: none;
+	}
+
+
+	.inner-column{
+		padding-left: 100px;
+	}
+
+	ul{
+		list-style-position: inside;
+	}
+
+
+
 }

@@ -12,7 +12,7 @@
 
 		<meta property='og:image' content='images/default-meta.png'>
 
-		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href='styles/style.css'>
 
 	</head>
 
@@ -63,7 +63,7 @@
 						<ul>
 							<li>
 								<div class='link-container'>
-									<a href="layout-garden/index.html"
+									<a href="projects/layout-garden/index.html"
 
 									class='calm-voice'
 
@@ -79,7 +79,7 @@
 
 							<li>
 								<div class='link-container'>
-									<a href="mock-site/index.html" class='calm-voice'>
+									<a href="projects/mock-site/index.html" class='calm-voice'>
 										First mock site
 									</a>
 								</div>
@@ -88,7 +88,7 @@
 
 							<li>
 								<div class='link-container'>
-									<a href="portal/index.html" class='calm-voice'> 
+									<a href="projects/portal/index.html" class='calm-voice'> 
 										My Portal
 									</a>
 								</div>

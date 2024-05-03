@@ -42,7 +42,9 @@ body{
 	background-color: var(--color);
 }
 
-
+.desktop{
+	display: none;
+}
 
 /* about section */
 
@@ -165,8 +167,8 @@ body{
 		display: none;
 	}
 
-	footer{
-		
+	.desktop{
+		display: block;
 	}
 
 	footer, picture{
@@ -176,7 +178,6 @@ body{
 		right: 120px;
 		height: 100%;
 		
-
 
 	}
 
@@ -197,6 +198,12 @@ body{
 
 	.greeting{
 	display: block;
-}
+
 
 }
+
+	.greeting .inner-column{
+		display: flex;
+		flex-direction: column;
+		 gap: 15px;
+	}

@@ -6,13 +6,13 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<title>[[Resume]</title>
+		<title>[Resume]</title>
 		
 		<meta name='description' content='[[insert description]]'>
 
 		<meta property='og:image' content='images/default-meta.png'>
 
-		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/style.css?version=1">
 
 	</head>
 	
@@ -27,9 +27,10 @@
 	<main>
 	<section class="work-exp">
 		<div class="inner-column">
+			<div class="work-exp-cards">
 			<h1 class='attention-voice'> Work Experience</h1>
 	
-			<div class="work-exp-cards">
+			
 						<div class='amazon'>
 			<div class="work-card">
 				<h2 class="notice-voice">Transaction Risk Investigator</h2>

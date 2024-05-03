@@ -31,9 +31,9 @@ p a { /* "all links in paragraphs..." */
 }
 
 .inner-column{
-	max-width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
+	max-width: 700px;
+/*	margin-right: auto;*/
+/*	margin-left: 100px;*/
 	padding: 50px 15px;
 }
 
