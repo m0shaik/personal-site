@@ -136,17 +136,28 @@ body{
 
 .contact-section .email-container {
 	background-image: url("../images/link-brush.png");
-	padding: 15px 2px;
-	background-size: contain;
-	bacground-position: center center;
-
+	padding: 30px 15px;
+	background-size: cover;
+	background-position:  center center;
+	background-repeat: no-repeat;
 }
+
+.contact-section .inner-column{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
 
 .contact-section .email-container a {
 		color: var(--color);
+
+		
 }
 
-
+.contact-section .inner-column p{
+		padding-left: 15px;
+}
 
 /* links section */
 
@@ -157,6 +168,18 @@ body{
 
 .greeting{
 	display: none;
+}
+
+
+/*tablet*/
+
+@media (min-width: 700px){
+	.contact-section .email-container {
+
+		max-width: fit-content;
+
+	}
+
 }
 
 /*desktop*/
@@ -207,3 +230,18 @@ body{
 		flex-direction: column;
 		 gap: 15px;
 	}
+
+
+	.contact-section .inner-column{
+		max-width: 700px;
+	/*	margin-right: auto;*/
+	/*	margin-left: 100px;*/
+		padding: 50px 15px;
+		padding-left: 100px;
+}
+
+.contact-section .inner-column p{
+		padding-left: 0px;
+}
+
+}

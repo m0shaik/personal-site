@@ -10,7 +10,7 @@
 		
 		<meta name='description' content= 'Hello. Welcome to my website. I am here for your Web-Goals.' >
 
-		<meta property='og:image' content='images/meta-image.png'>
+		<meta property='og:image' content='../images/meta-image.png'>
 
 		<link rel="stylesheet" href='styles/style.css'>
 
