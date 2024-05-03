@@ -6,9 +6,9 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<title>[[mShaik]</title>
+		<title>Mohammed Shaik</title>
 		
-		<meta name='description' content='Hello. Welcome to my website. I am here for your Web-Goals. '>
+		<meta name='description' content= 'Hello. Welcome to my website. I am here for your Web-Goals.' >
 
 		<meta property='og:image' content='images/meta-image.png'>
 
