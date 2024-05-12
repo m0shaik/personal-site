@@ -64,7 +64,6 @@
 					<li>Done with course, becomes a moderate  programmer.</li>
 					<li>Have fun memories from bali trip.</li>
 					<li>Have a hot girlfriend.</li>
-					<li>Get my lips tattoo done.</li>
 					<li>Make enough money to not be in debt after trip.</li>
 				</ul>
 				</div>
