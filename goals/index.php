@@ -101,6 +101,11 @@
 									Resume
 								</a>
 							</li>
+
+							
+							<li>
+								<a href="../projects/index.php" class="notice-voice"> Projects</a>
+							</li>
 						</ul>
 					</nav>
 				</div>

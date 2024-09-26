@@ -57,63 +57,6 @@
 
 			</section>
 
-			<section class='projects-section'>
-				<div class="inner-column">
-					<nav>
-						<ul>
-							<li>
-								<div class='link-container'>
-									<a href="projects/layout-garden/index.html"
-
-									class='calm-voice'
-
-									> 
-								Layout Garden
-							</a>
-								</div>
-
-								<?php include 'partials/project-boxes.php' ?>
-
-
-							</li>
-
-							<li>
-								<div class='link-container'>
-									<a href="projects/mock-site/index.html" class='calm-voice'>
-										First mock site
-									</a>
-								</div>
-									<?php include 'partials/project-boxes.php' ?>
-							</li>
-
-							<li>
-								<div class='link-container'>
-									<a href="projects/portal/index.html" class='calm-voice'> 
-										My Portal
-									</a>
-								</div>
-									<?php include 'partials/project-boxes.php' ?>
-							</li>
-
-							<li>
-								<div class='link-container'>
-									<a href="projects/e4p/index.php" class='calm-voice'> 
-										Exercises for programmers
-									</a>
-								</div>
-									<?php include 'partials/project-boxes.php' ?>
-							</li>
-
-
-
-
-						</ul>
-					</nav>	
-
-				</div>
-
-			</section>
-			
 
 
 			<section class='contact-section'>
@@ -145,6 +88,10 @@
 								<a href="goals/index.php" class="notice-voice">
 									Goals
 								</a>
+							</li>
+
+							<li>
+								<a href="projects/index.php" class='notice-voice'>Projects</a>
 							</li>
 						</ul>
 					</nav>

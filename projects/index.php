@@ -12,7 +12,7 @@
 
 		<meta property='og:image' content='../images/meta-image.png'>
 
-		<link rel="stylesheet" href='styles/style.css'>
+		<link rel="stylesheet" href='../styles/style.css'>
 
 	</head>
 
@@ -20,42 +20,19 @@
 	<body>
 		
 		<?php 
-			include 'partials/header.php'
+			include '../partials/header.php'
 		 ?>
 
 		<main>
 
-			<section class="greeting">
-
+			<section class="projects-intro">
 				<div class="inner-column">
-				<h1 class="loud-voice">
-					Mohammed Shaikh
-				</h1>
-
-				<h2 class="attention-voice">
-					Web developer
-				</h2>
+					<h2 class='loud-voice'>Projects</h2>
+					<p>Here you will find the projects I have handelled. Kindly click on the links below. </p>
 				</div>
-
 			</section>
 
-			<section class='about-section'>
-				<div class="inner-column">
-					<p>
-						Welcome to my portfolio. I am Mohammed Shaikh. 
-						I am currently learning Web-developing, Graphic designing and Full-stack developing. 
-					</p>
 
-					<p>
-						I am a good communicator. I work well both in teams and individually. 
-					</p>
-
-					<p>
-						I like playing Football. I am a Foodie. I love travelling and discovering new places. 
-					</p>
-				</div>
-
-			</section>
 
 			<section class='projects-section'>
 				<div class="inner-column">
@@ -63,7 +40,7 @@
 						<ul>
 							<li>
 								<div class='link-container'>
-									<a href="projects/layout-garden/index.html"
+									<a href="layout-garden/index.html"
 
 									class='calm-voice'
 
@@ -72,36 +49,36 @@
 							</a>
 								</div>
 
-								<?php include 'partials/project-boxes.php' ?>
+								<?php include '../partials/project-boxes.php' ?>
 
 
 							</li>
 
 							<li>
 								<div class='link-container'>
-									<a href="projects/mock-site/index.html" class='calm-voice'>
+									<a href="mock-site/index.html" class='calm-voice'>
 										First mock site
 									</a>
 								</div>
-									<?php include 'partials/project-boxes.php' ?>
+									<?php include '../partials/project-boxes.php' ?>
 							</li>
 
 							<li>
 								<div class='link-container'>
-									<a href="projects/portal/index.html" class='calm-voice'> 
+									<a href="portal/index.html" class='calm-voice'> 
 										My Portal
 									</a>
 								</div>
-									<?php include 'partials/project-boxes.php' ?>
+									<?php include '../partials/project-boxes.php' ?>
 							</li>
 
 							<li>
 								<div class='link-container'>
-									<a href="projects/e4p/index.php" class='calm-voice'> 
+									<a href="e4p/index.php" class='calm-voice'> 
 										Exercises for programmers
 									</a>
 								</div>
-									<?php include 'partials/project-boxes.php' ?>
+									<?php include '../partials/project-boxes.php' ?>
 							</li>
 
 
@@ -116,35 +93,25 @@
 			
 
 
-			<section class='contact-section'>
-				<div class="inner-column">
-					<p class=''> 
-						Feel free to get in touch.
-					</p>
-					<div class='email-container'>
-						<a href="mailto:shaikm66@gmail.com" class='firm-voice'>
-							shaikm66@gmail.com
-						</a>
-					</div>
-				</div>
-
-			</section>
-
 
 			<section class="links-section">
 				<div class="inner-column">
 					<nav>
 						<ul>
 							<li>
-								<a href="resume/index.php" class="notice-voice">
+								<a href="../resume/index.php" class="notice-voice">
 									Resume
 								</a>
 							</li>
 
 							<li>
-								<a href="goals/index.php" class="notice-voice">
+								<a href="../goals/index.php" class="notice-voice">
 									Goals
 								</a>
+							</li>
+
+							<li>
+								<a href="../index.php" class="notice-voice" >Home</a>
 							</li>
 						</ul>
 					</nav>
@@ -156,7 +123,7 @@
 		</main>
 
 		<?php 
-			include 'partials/footer.php'
+			include '../partials/footer.php'
 		 ?>
 
 

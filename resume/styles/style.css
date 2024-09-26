@@ -137,6 +137,10 @@ h3 + h4{
 
 /* links section */
 
+.links-section{
+	margin-block: 50px;
+}
+
 .links-section ul {
 	display: flex;
 	align-items: flex-start;
