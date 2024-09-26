@@ -61,9 +61,9 @@ h2 + ul{
 
 .links-section ul {
 	display: flex;
-	justify-content: space-around;
+	align-items: flex-start;
+	gap: 50px;
 	list-style-type: none;
-
 }
 
 .desktop{

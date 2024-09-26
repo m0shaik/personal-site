@@ -1,33 +1,4 @@
-<style>
-	
-	form{
-		max-width: 500px;
-		padding: 10px;
 
-	}
-
-	.cost-form, .km-form {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-
-	}
-
-	.km-form label{
-		padding-top: 10px;
-	}
-
-	button{
-		margin-top: 10px;
-		font-size: 15px;
-	}
-
-	.result{
-		color: blue;
-	}
-
-
-</style>
 
 
 <?php
@@ -55,7 +26,7 @@ $distance = 0;
 		}
 
 		if ( isset($_POST["distance"]) ) {
-			if ( $_POST["rate"] >= 0 ) {
+			if ( $_POST["distance"] >= 0 ) {
 				$distance = $_POST["distance"];
 			}	
 
@@ -75,16 +46,15 @@ $distance = 0;
 
 
 
-<form method='POST'>
+<form method='POST' class='e4p-form'>
 
-	<p> Car rental form.</p>
-
-	<div class="cost-form">
+	<h2> Car rental Form.</h2>
+	<div class="cost-form form-field">
 		<label for="">Charges per Km</label>
 		<input type="number" name='rate'>
 	</div>
 
-	<div class="km-form">
+	<div class="km-form form-field">
 		<label for=""> Number of Km</label>
 		<input type="number" name='distance'>
 	</div>

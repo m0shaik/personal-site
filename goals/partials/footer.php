@@ -27,7 +27,7 @@
             <g transform="matrix(2.86086e-16,4.68355,-5.64536,4.22592e-16,25428.4,-52101.4)">
                 <g transform="matrix(64,0,0,64,12662.4,4619.84)">
                 </g>
-                <text x="12437.5px" y="4619.84px" style="font-family:'AbrilFatface-Regular', 'Abril Fatface';font-size:64px;fill:rgb(229,255,0);">w<tspan x="12488.6px " y="4619.84px ">e</tspan>bde<tspan x="12628.4px " y="4619.84px ">v</tspan></text>
+                <text x="12437.5px" y="4619.84px" style="font-family:'AbrilFatface-Regular', 'Abril Fatface';font-size:64px;fill:rgb(229,255,0);">G<tspan x="12488.6px " y="4619.84px ">o</tspan>als<tspan x="12628.4px " y="4619.84px "></tspan></text>
             </g>
             <g transform="matrix(1.04464e-16,1.48689,-2.50968,1.33934e-16,20438.4,-20667.1)">
                 <g transform="matrix(11.1663,-7.83629e-32,0,2.15371,-172855,-3299.66)">

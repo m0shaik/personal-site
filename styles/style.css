@@ -163,7 +163,8 @@ body{
 
 .links-section ul {
 	display: flex;
-	justify-content: space-around;
+	align-items: flex-start;
+	gap: 50px;
 }
 
 .greeting{
@@ -244,4 +245,9 @@ body{
 		padding-left: 0px;
 }
 
+}
+
+@media (min-width: 700px){
+
+	
 }

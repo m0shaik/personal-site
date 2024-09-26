@@ -13,7 +13,7 @@
 	</div>
 
 	<picture class='desktop'>
-<svg width="100%" height="100%" viewBox="0 0 618 1207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+        <svg width="100%" height="100%" viewBox="0 0 618 1207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1,0,0,1,-510.106,-6108.8)">
         <g transform="matrix(1,0,0,1.14738,1386.3,-950.237)">
             <g transform="matrix(0.0134405,-16.3915,18.8984,0.0117708,-2351.61,15166)">
@@ -42,7 +42,7 @@
             </g>
         </g>
     </g>
-</svg>
+        </svg>
 
 	</picture>
 	
