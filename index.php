@@ -1,24 +1,30 @@
-<?php
- include ("functions.php");
+<?php 
 
-$page = getPage();
+include 'functions.php';
 
-?>
+$pageSlug = getPage();
+
+$indexPageData = jsonDecode($pageSlug);
+
+$pageTemplate = $indexPageData['template'] ?? "standard";
+
+ ?>
+
+
+
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?=$page?></title>
+	<title><?= $pageSlug ?></title>
 	<link rel="stylesheet" href="styles/site.css">
 </head>
+<body class="<?= $pageSlug ?>-page">
 
-<body>
 
-
-	<?php include ('templates/pages/standard.php'); ?>
+	<?php include "templates/pages/$pageTemplate.php"; ?>
 	
 </body>
-
 </html>

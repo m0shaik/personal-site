@@ -1,38 +1,31 @@
 /*@import 'developer-styles.css';*/
 
 html {
-	--black: #111111;
+	--black: hsla(0, 0%, 7%, 1.00);
 	--white: #efefef;
+
 
 	--neutral-stuffs: gray;
 
-	--color: hsla(66, 100%, 50%, 1);
+	--color: rgb(229,255,0);
 	--highlight: hsla(190, 90%, 60%, 1.00);
 
 	--shadow: rgba(0,0,0,.8);
 
+	--space-xl: 70px;
+	--space-l: 50px;
+	--space-m: 30px;
+	--space-s: 20px;
+	--space-xs: 10px;
+
 	--corners: 10px; /* or whatevers */
 
-	--paper: hsla(209, 90%, 50%, 1.00); /*shadier dodgerblue*/
-	--ink: white;
+	--paper: var(--color); /*shadier dodgerblue*/
+	--ink: var(--black);
+
+	--three-lines: 20px 0px var(--ink), 22px 0px var(--paper), 32px 0px var(--ink), 34px 0px var(--paper), 39px 0px var(--ink);
+
+/*	spacing */
+
 }
 
-@media (prefers-color-scheme: dark) {
-	html {
-		--black: #111111;
-		--white: #efefef;
-
-		--neutral-stuffs: gray;
-
-		--color: hsla(206, 66%, 47%, 1.00);
-		--highlight: hsla(190, 90%, 40%, 1.00);
-
-		--shadow: rgba(0,0,0,.8);
-
-		--corners: 10px; /* or whatevers */
-
-		--paper:  hsla(217, 8%, 13%, 1.00); 
-		--paper2: hsla(217, 6%, 17%, 1.00);  /*bunker*/
-		--ink: hsla(0, 0%, 96%, 1.00);  /*whitesmoke*/
-	}
-}

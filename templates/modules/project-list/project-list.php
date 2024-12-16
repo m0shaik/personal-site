@@ -1,32 +1,24 @@
 <?php 
 
-
-$projects = getJsonData("projects.json");
-
- ?>
+	$projects = getProjectsData();
 
 
+?>
 
 <section class="project-list">
+	
 	<inner-column>
-
-
-
 		<ul>
+			<?php foreach ($projects as $project){ ?>
 
-<?php foreach($projects as $project) { 
+				<li>
+					
 
-	$projectHead = $project['heading'] ?? 'Project Heading';
+					<?php include "templates/components/project-card/project-card.php" ?>
 
-	$projectImage = $project['image'] ?? 'square.jpg';
+				</li>
 
-	$projectDescription = $project['description'] ?? 'This is project description';
-
-	$projectLink = $project['link'] ?? '#';
-
-	include 'templates/components/project-card/project-card.php';
-
- } ?>
+			<?php } ?> 
 		</ul>
 	</inner-column>
 </section>

@@ -1,20 +1,21 @@
 <?php 
 
-$paragraph  = 'Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Ab impedit debitis labore similique distinctio, eligendi quisquam non velit quasi, sint at a nihil, laboriosam ducimus numquam eaque perspiciatis illum odio?';
+	$imageDiptych = $section['image'];
 
-$image = 'square.jpg';
+	$paraDiptych = $section['description'] ?? "This is a graphic dyptich paragraph, which will conatain information about relevant stuff.";
 
-?>
+ ?>
+
+
 
 <section class="graphic-diptych">
 	<inner-column>
-		
 		<picture>
-			<img src="images/<?= $image ?> " alt="">
+			<img src="images/<?= $imageDiptych ?>" alt="">
 		</picture>
 
 		<p>
-			<?= $paragraph ?>
+			<?= $paraDiptych ?>
 		</p>
 	</inner-column>
 </section>

@@ -1,17 +1,33 @@
-			<li class='project-card'>
+<?php 
 
-				<h3>
-					<?= $projectHead ?>
-				</h3>
+	$projectName = $project["name"] ?? "Project Name";
 
-				<picture>
-					<img src="images/<?= $projectImage ?>" alt="">
-				</picture>
+	$projectDate = $project["date"] ??  "01/01/01";
 
-				<p>
-					<?= $projectDescription ?>
-				</p>
+	$projectDescription = $project["description"] ?? "Lorem LoremLorem Lorem Lorem";
 
-				<a href="<?= $projectLink ?>"> See more..</a>
+	$projectLink = $project["detail-link"] ?? "path/to/projects";
 
-			</li>
+	$projectImage= $project["image"] ??  "images/landscape.jpg";
+
+?>
+
+<project-card>
+	<h2 class="strong-voice">
+		<?=$projectName?>
+	</h2>
+	<p class="project-date">
+		<?=$projectDate?>
+	</p>
+	
+
+	<a href="<?=$projectLink?>">
+		<picture>
+			<img src="<?=$projectImage?>" alt="">
+		</picture>
+	</a>
+
+	<p class="project-description">
+		<?=$projectDescription?>
+	</p>
+</project-card>
