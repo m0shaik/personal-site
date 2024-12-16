@@ -1,45 +1,50 @@
-* {box-sizing: border-box;}
 
-picture {
-  display: block;
-  /* inline by default (browser's choice) */
+/* set global box-model so that padding and borders stay inside */
+html {
+  box-sizing: border-box;
 }
-
-img {
-  display: block; /* it's inline-block by default */
-  width: 100%; /* fill it's parent element */
-  height: auto; 
-  /* 
-    to cover the inline presentation attributes 
-    and keep it ratioed up 
-  */
-}
+*, *:before, *:after {
+  box-sizing: inherit;
+} /* https://www.paulirish.com/2012/box-sizing-border-box-ftw */
+/* not sure... if this is really a winner anymore - with the inherit - let's reconsider $todo */
 
 a {
+	/* we use links as parent elements so often, that we can default to this */
 	display: block;
+
+	/* remove defaults */
 	text-decoration: none;
 	color: inherit;
-	/* remove default link styles */
-	/* set links to be blocks so you can wrap thing */
-	/* inline elements can't have block elements inside! */
 }
 
-p a { /* "all links in paragraphs..." */
-	display: inline-block;
+/* put the classic link styles back */
+p a {
+	display: inline;
+	color: blue;
 	text-decoration: underline;
-	color: blue; /* put back styles for normal links */
 }
 
-.inner-column{
-	max-width: 700px;
-/*	margin-right: auto;*/
-/*	margin-left: 100px;*/
-	padding: 50px 15px;
+/* picture is inline by default, but we need it to accept block-level images in it */
+picture {
+	display: block;
+	overflow: hidden;
 }
 
-
-body{
-	--color: hsla(66, 100%, 50%, 1);
-	min-height: 100vh;
+/* globally set images to fill their parent and keep their ratio as the default */
+img {
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
+/* we generally need SVGs to act the same way as images */
+svg {
+  display: block;
+  width: 100%;
+  /* Safari seems to need height: 100% $todo - revisit */
+}
+
+/* selects for autonomous customelements which are inline by default */
+:where(:not(:defined)) {
+	display: block;
+}

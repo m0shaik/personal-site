@@ -1,0 +1,26 @@
+
+
+{
+	"title": "Home",
+	"sections": [
+		
+		{
+			"module": "generic-text",
+			"heading" : "Welcome to my Site",
+			"description" : "See the work of art and wonders"
+		},
+		{
+			"module": "graphic-diptych",
+			"description" : "See the work of art and wonders",
+			"image" : "square.jpg"
+
+		},
+		{
+			"module": "project-list"
+		}
+
+
+
+
+	]
+}

@@ -1,0 +1,7 @@
+.project-list{
+	ul{
+		display: grid;
+		grid-template-columns : repeat(3, 1fr);
+		gap: var(--small, 10px);
+	}
+}

@@ -1,1 +1,0 @@
-<h1>Welcome to the Gaming Store</h1>

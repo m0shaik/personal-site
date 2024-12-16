@@ -1,0 +1,13 @@
+{
+	"title": "about",
+	"sections": [
+		
+		{
+			"module": "generic-text",
+			"heading" : "Welcome to my Site",
+			"description" : "See the work of art and wonders"
+		}
+
+
+	]
+}

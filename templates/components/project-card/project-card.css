@@ -1,0 +1,7 @@
+.project-card{
+	padding: 20px;
+	border: 5px solid white;
+	h3, p{
+		margin-block: 20px;
+	}
+}
